@@ -28,6 +28,7 @@ func (a *App) Initialize(config *config.Config) {
  
 	db, err := gorm.Open(config.DB.Dialect, dbURI)
 	if err != nil {
+		log.Fatal(err)
 		log.Fatal("Could not connect database")
 	}
  
