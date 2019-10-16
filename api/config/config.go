@@ -17,7 +17,7 @@ func GetConfig() *Config {
 		DB: &DBConfig{
 			Dialect:  "mysql",
 			Username: "root",
-			Password: "root@123",
+			Password: "root@1234",
 			Name:     "employee",
 			Charset:  "utf8",
 		},
